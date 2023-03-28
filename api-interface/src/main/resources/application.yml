@@ -1,0 +1,28 @@
+server:
+  port: 7523
+  servlet:
+    context-path: /api
+
+
+api:
+  client:
+    access-key: lulu
+    secret-key: abcdefg
+
+spring:
+  application:
+    name: api-interface
+  mail:
+    # 163邮箱的地址为smtp.163.com，直接填写即可
+    host: smtp.163.com
+    # 你申请的163邮箱
+    username: q18115738065@163.com
+    # 注意密码是在开启smtp/pop3时自动生成的，记得保存一下，不然就找不到了
+    password: YYEKKXEBMJPOMBXD
+    default-encoding: utf-8
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.107.240.179:3306/my_db
+    username: root
+    password: 123456
