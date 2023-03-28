@@ -2,8 +2,6 @@ package com.codeqiu.project.constant;
 
 /**
  * 通用常量
- *
- * @author yupi
  */
 public interface CommonConstant {
 

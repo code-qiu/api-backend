@@ -9,11 +9,7 @@ import com.codeqiu.project.service.UserInterfaceInfoService;
 import com.codeqiu.qapicommon.model.entity.UserInterfaceInfo;
 import org.springframework.stereotype.Service;
 
-/**
-* @author Lavender
-* @description 针对表【user_interface_info(用户调用接口关系)】的数据库操作Service实现
-* @createDate 2023-03-19 15:11:41
-*/
+
 @Service
 public class UserInterfaceInfoServiceImpl extends ServiceImpl<UserInterfaceInfoMapper, UserInterfaceInfo>
     implements UserInterfaceInfoService {

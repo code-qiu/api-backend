@@ -18,11 +18,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-/**
- * @author Lavender
- * @description 针对表【interface_info(接口信息)】的数据库操作Service实现
- * @createDate 2023-03-15 17:11:14
- */
+
 @Service
 public class InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo>
         implements InterfaceInfoService {

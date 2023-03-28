@@ -6,8 +6,6 @@ import java.io.Serializable;
 
 /**
  * 发布和下线接口请求参数
- *
- * @author yupi
  */
 @Data
 public class IdRequest implements Serializable {

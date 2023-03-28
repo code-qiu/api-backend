@@ -6,8 +6,6 @@ import java.io.Serializable;
 
 /**
  * 接口调用请求
- *
- * @TableName product
  */
 @Data
 public class InterfaceInfoInvokeRequest implements Serializable {

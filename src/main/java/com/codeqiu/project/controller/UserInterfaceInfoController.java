@@ -28,8 +28,6 @@ import java.util.List;
 
 /**
  * 接口接口
- *
- * @author yupi
  */
 @RestController
 @RequestMapping("/userInterfaceInfo")
